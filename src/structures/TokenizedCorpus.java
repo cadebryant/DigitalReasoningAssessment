@@ -1,6 +1,8 @@
 package structures;
 
+import ner.NamedEntityRecognizer;
 import tokenization.Tokenizer;
+import utils.Utils;
 
 import java.beans.XMLEncoder;
 import java.io.BufferedOutputStream;
@@ -26,12 +28,15 @@ public class TokenizedCorpus {
      * Constructor
      * @param filePath
      */
-    public TokenizedCorpus(String filePath) {
+    public TokenizedCorpus(String filePath, boolean findNamedEntities, String namedEntitiesFile) {
+        if (findNamedEntities) {
+            namedEntityRecognizer = new NamedEntityRecognizer(namedEntitiesFile);
+        }
         Tokenizer tokenizer = new Tokenizer(filePath);
         ArrayList<ArrayList<String>> tokenized = tokenizer.tokenize();
         sentences = new ArrayList<TokenizedSentence>();
         for (ArrayList<String> s : tokenized) {
-            sentences.add(new TokenizedSentence(s));
+            sentences.add(new TokenizedSentence(s, findNamedEntities, namedEntityRecognizer));
         }
     }
 
@@ -55,4 +60,6 @@ public class TokenizedCorpus {
             xmlEncode.close();
         }
     }
+
+    private NamedEntityRecognizer namedEntityRecognizer;
 }

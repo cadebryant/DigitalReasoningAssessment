@@ -1,0 +1,944 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<java version="1.7.0_101" class="java.beans.XMLDecoder">
+ <object class="structures.TokenizedCorpus">
+  <void property="sentences">
+   <object class="java.util.ArrayList">
+    <void method="add">
+     <object class="structures.TokenizedSentence">
+      <void property="words">
+       <object class="java.util.ArrayList">
+        <void method="add">
+         <object class="structures.Word">
+          <void property="word">
+           <string>The</string>
+          </void>
+         </object>
+        </void>
+        <void method="add">
+         <object class="structures.Word">
+          <void property="word">
+           <string>term</string>
+          </void>
+         </object>
+        </void>
+        <void method="add">
+         <object class="structures.Word">
+          <void property="word">
+           <string>&quot;First</string>
+          </void>
+         </object>
+        </void>
+        <void method="add">
+         <object class="structures.Word">
+          <void property="word">
+           <string>World</string>
+          </void>
+         </object>
+        </void>
+        <void method="add">
+         <object class="structures.Word">
+          <void property="word">
+           <string>War&quot;</string>
+          </void>
+         </object>
+        </void>
+        <void method="add">
+         <object class="structures.Word">
+          <void property="word">
+           <string>was</string>
+          </void>
+         </object>
+        </void>
+        <void method="add">
+         <object class="structures.Word">
+          <void property="word">
+           <string>first</string>
+          </void>
+         </object>
+        </void>
+        <void method="add">
+         <object class="structures.Word">
+          <void property="word">
+           <string>used</string>
+          </void>
+         </object>
+        </void>
+        <void method="add">
+         <object class="structures.Word">
+          <void property="word">
+           <string>in</string>
+          </void>
+         </object>
+        </void>
+        <void method="add">
+         <object class="structures.Word">
+          <void property="word">
+           <string>September</string>
+          </void>
+         </object>
+        </void>
+        <void method="add">
+         <object class="structures.Word">
+          <void property="word">
+           <string>1914</string>
+          </void>
+         </object>
+        </void>
+        <void method="add">
+         <object class="structures.Word">
+          <void property="word">
+           <string>by</string>
+          </void>
+         </object>
+        </void>
+        <void method="add">
+         <object class="structures.Word">
+          <void property="word">
+           <string>the</string>
+          </void>
+         </object>
+        </void>
+        <void method="add">
+         <object class="structures.Word">
+          <void property="word">
+           <string>German</string>
+          </void>
+         </object>
+        </void>
+        <void method="add">
+         <object class="structures.Word">
+          <void property="word">
+           <string>philosopher</string>
+          </void>
+         </object>
+        </void>
+        <void method="add">
+         <object class="structures.NamedEntity">
+          <void property="name">
+           <string>Ernst Haeckel</string>
+          </void>
+         </object>
+        </void>
+        <void method="add">
+         <object class="structures.Word">
+          <void property="word">
+           <string>who</string>
+          </void>
+         </object>
+        </void>
+        <void method="add">
+         <object class="structures.Word">
+          <void property="word">
+           <string>claimed</string>
+          </void>
+         </object>
+        </void>
+        <void method="add">
+         <object class="structures.Word">
+          <void property="word">
+           <string>that</string>
+          </void>
+         </object>
+        </void>
+        <void method="add">
+         <object class="structures.Word">
+          <void property="word">
+           <string>&quot;there</string>
+          </void>
+         </object>
+        </void>
+        <void method="add">
+         <object class="structures.Word">
+          <void property="word">
+           <string>is</string>
+          </void>
+         </object>
+        </void>
+        <void method="add">
+         <object class="structures.Word">
+          <void property="word">
+           <string>no</string>
+          </void>
+         </object>
+        </void>
+        <void method="add">
+         <object class="structures.Word">
+          <void property="word">
+           <string>doubt</string>
+          </void>
+         </object>
+        </void>
+        <void method="add">
+         <object class="structures.Word">
+          <void property="word">
+           <string>that</string>
+          </void>
+         </object>
+        </void>
+        <void method="add">
+         <object class="structures.Word">
+          <void property="word">
+           <string>the</string>
+          </void>
+         </object>
+        </void>
+        <void method="add">
+         <object class="structures.Word">
+          <void property="word">
+           <string>course</string>
+          </void>
+         </object>
+        </void>
+        <void method="add">
+         <object class="structures.Word">
+          <void property="word">
+           <string>and</string>
+          </void>
+         </object>
+        </void>
+        <void method="add">
+         <object class="structures.Word">
+          <void property="word">
+           <string>character</string>
+          </void>
+         </object>
+        </void>
+        <void method="add">
+         <object class="structures.Word">
+          <void property="word">
+           <string>of</string>
+          </void>
+         </object>
+        </void>
+        <void method="add">
+         <object class="structures.Word">
+          <void property="word">
+           <string>the</string>
+          </void>
+         </object>
+        </void>
+        <void method="add">
+         <object class="structures.Word">
+          <void property="word">
+           <string>feared</string>
+          </void>
+         </object>
+        </void>
+        <void method="add">
+         <object class="structures.Word">
+          <void property="word">
+           <string>&apos;European</string>
+          </void>
+         </object>
+        </void>
+        <void method="add">
+         <object class="structures.Word">
+          <void property="word">
+           <string>War&apos;</string>
+          </void>
+         </object>
+        </void>
+        <void method="add">
+         <object class="structures.Word">
+          <void property="word">
+           <string>...</string>
+          </void>
+         </object>
+        </void>
+        <void method="add">
+         <object class="structures.Word">
+          <void property="word">
+           <string>will</string>
+          </void>
+         </object>
+        </void>
+        <void method="add">
+         <object class="structures.Word">
+          <void property="word">
+           <string>become</string>
+          </void>
+         </object>
+        </void>
+        <void method="add">
+         <object class="structures.Word">
+          <void property="word">
+           <string>the</string>
+          </void>
+         </object>
+        </void>
+        <void method="add">
+         <object class="structures.Word">
+          <void property="word">
+           <string>first</string>
+          </void>
+         </object>
+        </void>
+        <void method="add">
+         <object class="structures.Word">
+          <void property="word">
+           <string>world</string>
+          </void>
+         </object>
+        </void>
+        <void method="add">
+         <object class="structures.Word">
+          <void property="word">
+           <string>war</string>
+          </void>
+         </object>
+        </void>
+        <void method="add">
+         <object class="structures.Word">
+          <void property="word">
+           <string>in</string>
+          </void>
+         </object>
+        </void>
+        <void method="add">
+         <object class="structures.Word">
+          <void property="word">
+           <string>the</string>
+          </void>
+         </object>
+        </void>
+        <void method="add">
+         <object class="structures.Word">
+          <void property="word">
+           <string>full</string>
+          </void>
+         </object>
+        </void>
+        <void method="add">
+         <object class="structures.Word">
+          <void property="word">
+           <string>sense</string>
+          </void>
+         </object>
+        </void>
+        <void method="add">
+         <object class="structures.Word">
+          <void property="word">
+           <string>of</string>
+          </void>
+         </object>
+        </void>
+        <void method="add">
+         <object class="structures.Word">
+          <void property="word">
+           <string>the</string>
+          </void>
+         </object>
+        </void>
+        <void method="add">
+         <object class="structures.Word">
+          <void property="word">
+           <string>word.&quot;</string>
+          </void>
+         </object>
+        </void>
+       </object>
+      </void>
+     </object>
+    </void>
+    <void method="add">
+     <object class="structures.TokenizedSentence">
+      <void property="words">
+       <object class="java.util.ArrayList">
+        <void method="add">
+         <object class="structures.Word">
+          <void property="word">
+           <string>Why</string>
+          </void>
+         </object>
+        </void>
+        <void method="add">
+         <object class="structures.Word">
+          <void property="word">
+           <string>did</string>
+          </void>
+         </object>
+        </void>
+        <void method="add">
+         <object class="structures.Word">
+          <void property="word">
+           <string>the</string>
+          </void>
+         </object>
+        </void>
+        <void method="add">
+         <object class="structures.Word">
+          <void property="word">
+           <string>war</string>
+          </void>
+         </object>
+        </void>
+        <void method="add">
+         <object class="structures.Word">
+          <void property="word">
+           <string>begin?</string>
+          </void>
+         </object>
+        </void>
+        <void method="add">
+         <object class="structures.Word">
+          <void property="word">
+           <string>The</string>
+          </void>
+         </object>
+        </void>
+        <void method="add">
+         <object class="structures.Word">
+          <void property="word">
+           <string>immediate</string>
+          </void>
+         </object>
+        </void>
+        <void method="add">
+         <object class="structures.Word">
+          <void property="word">
+           <string>trigger</string>
+          </void>
+         </object>
+        </void>
+        <void method="add">
+         <object class="structures.Word">
+          <void property="word">
+           <string>for</string>
+          </void>
+         </object>
+        </void>
+        <void method="add">
+         <object class="structures.Word">
+          <void property="word">
+           <string>war</string>
+          </void>
+         </object>
+        </void>
+        <void method="add">
+         <object class="structures.Word">
+          <void property="word">
+           <string>was</string>
+          </void>
+         </object>
+        </void>
+        <void method="add">
+         <object class="structures.Word">
+          <void property="word">
+           <string>the</string>
+          </void>
+         </object>
+        </void>
+        <void method="add">
+         <object class="structures.Word">
+          <void property="word">
+           <string>28</string>
+          </void>
+         </object>
+        </void>
+        <void method="add">
+         <object class="structures.Word">
+          <void property="word">
+           <string>June</string>
+          </void>
+         </object>
+        </void>
+        <void method="add">
+         <object class="structures.Word">
+          <void property="word">
+           <string>1914</string>
+          </void>
+         </object>
+        </void>
+        <void method="add">
+         <object class="structures.Word">
+          <void property="word">
+           <string>assassination</string>
+          </void>
+         </object>
+        </void>
+        <void method="add">
+         <object class="structures.Word">
+          <void property="word">
+           <string>of</string>
+          </void>
+         </object>
+        </void>
+        <void method="add">
+         <object class="structures.Word">
+          <void property="word">
+           <string>Archduke</string>
+          </void>
+         </object>
+        </void>
+        <void method="add">
+         <object class="structures.NamedEntity">
+          <void property="name">
+           <string>Franz Ferdinand</string>
+          </void>
+         </object>
+        </void>
+        <void method="add">
+         <object class="structures.Word">
+          <void property="word">
+           <string>of</string>
+          </void>
+         </object>
+        </void>
+        <void method="add">
+         <object class="structures.Word">
+          <void property="word">
+           <string>Austria,</string>
+          </void>
+         </object>
+        </void>
+        <void method="add">
+         <object class="structures.Word">
+          <void property="word">
+           <string>heir</string>
+          </void>
+         </object>
+        </void>
+        <void method="add">
+         <object class="structures.Word">
+          <void property="word">
+           <string>to</string>
+          </void>
+         </object>
+        </void>
+        <void method="add">
+         <object class="structures.Word">
+          <void property="word">
+           <string>the</string>
+          </void>
+         </object>
+        </void>
+        <void method="add">
+         <object class="structures.Word">
+          <void property="word">
+           <string>throne</string>
+          </void>
+         </object>
+        </void>
+        <void method="add">
+         <object class="structures.Word">
+          <void property="word">
+           <string>of</string>
+          </void>
+         </object>
+        </void>
+        <void method="add">
+         <object class="structures.NamedEntity">
+          <void property="name">
+           <string>Austria-Hungary</string>
+          </void>
+         </object>
+        </void>
+        <void method="add">
+         <object class="structures.Word">
+          <void property="word">
+           <string>by</string>
+          </void>
+         </object>
+        </void>
+        <void method="add">
+         <object class="structures.Word">
+          <void property="word">
+           <string>Yugoslav</string>
+          </void>
+         </object>
+        </void>
+        <void method="add">
+         <object class="structures.Word">
+          <void property="word">
+           <string>nationalist</string>
+          </void>
+         </object>
+        </void>
+        <void method="add">
+         <object class="structures.NamedEntity">
+          <void property="name">
+           <string>Gavrilo Princip</string>
+          </void>
+         </object>
+        </void>
+        <void method="add">
+         <object class="structures.Word">
+          <void property="word">
+           <string>(19</string>
+          </void>
+         </object>
+        </void>
+        <void method="add">
+         <object class="structures.Word">
+          <void property="word">
+           <string>years</string>
+          </void>
+         </object>
+        </void>
+        <void method="add">
+         <object class="structures.Word">
+          <void property="word">
+           <string>old</string>
+          </void>
+         </object>
+        </void>
+        <void method="add">
+         <object class="structures.Word">
+          <void property="word">
+           <string>at</string>
+          </void>
+         </object>
+        </void>
+        <void method="add">
+         <object class="structures.Word">
+          <void property="word">
+           <string>the</string>
+          </void>
+         </object>
+        </void>
+        <void method="add">
+         <object class="structures.Word">
+          <void property="word">
+           <string>time)</string>
+          </void>
+         </object>
+        </void>
+        <void method="add">
+         <object class="structures.Word">
+          <void property="word">
+           <string>in</string>
+          </void>
+         </object>
+        </void>
+        <void method="add">
+         <object class="structures.NamedEntity">
+          <void property="name">
+           <string>Sarajevo</string>
+          </void>
+         </object>
+        </void>
+       </object>
+      </void>
+     </object>
+    </void>
+    <void method="add">
+     <object class="structures.TokenizedSentence">
+      <void property="words">
+       <object class="java.util.ArrayList">
+        <void method="add">
+         <object class="structures.Word">
+          <void property="word">
+           <string>This</string>
+          </void>
+         </object>
+        </void>
+        <void method="add">
+         <object class="structures.Word">
+          <void property="word">
+           <string>set</string>
+          </void>
+         </object>
+        </void>
+        <void method="add">
+         <object class="structures.Word">
+          <void property="word">
+           <string>off</string>
+          </void>
+         </object>
+        </void>
+        <void method="add">
+         <object class="structures.Word">
+          <void property="word">
+           <string>a</string>
+          </void>
+         </object>
+        </void>
+        <void method="add">
+         <object class="structures.Word">
+          <void property="word">
+           <string>diplomatic</string>
+          </void>
+         </object>
+        </void>
+        <void method="add">
+         <object class="structures.Word">
+          <void property="word">
+           <string>crisis</string>
+          </void>
+         </object>
+        </void>
+        <void method="add">
+         <object class="structures.Word">
+          <void property="word">
+           <string>when</string>
+          </void>
+         </object>
+        </void>
+        <void method="add">
+         <object class="structures.NamedEntity">
+          <void property="name">
+           <string>Austria-Hungary</string>
+          </void>
+         </object>
+        </void>
+        <void method="add">
+         <object class="structures.Word">
+          <void property="word">
+           <string>delivered</string>
+          </void>
+         </object>
+        </void>
+        <void method="add">
+         <object class="structures.Word">
+          <void property="word">
+           <string>an</string>
+          </void>
+         </object>
+        </void>
+        <void method="add">
+         <object class="structures.Word">
+          <void property="word">
+           <string>ultimatum</string>
+          </void>
+         </object>
+        </void>
+        <void method="add">
+         <object class="structures.Word">
+          <void property="word">
+           <string>to</string>
+          </void>
+         </object>
+        </void>
+        <void method="add">
+         <object class="structures.Word">
+          <void property="word">
+           <string>the</string>
+          </void>
+         </object>
+        </void>
+        <void method="add">
+         <object class="structures.Word">
+          <void property="word">
+           <string>Kingdom</string>
+          </void>
+         </object>
+        </void>
+        <void method="add">
+         <object class="structures.Word">
+          <void property="word">
+           <string>of</string>
+          </void>
+         </object>
+        </void>
+        <void method="add">
+         <object class="structures.NamedEntity">
+          <void property="name">
+           <string>Serbia</string>
+          </void>
+         </object>
+        </void>
+        <void method="add">
+         <object class="structures.Word">
+          <void property="word">
+           <string>and</string>
+          </void>
+         </object>
+        </void>
+        <void method="add">
+         <object class="structures.Word">
+          <void property="word">
+           <string>entangled</string>
+          </void>
+         </object>
+        </void>
+        <void method="add">
+         <object class="structures.Word">
+          <void property="word">
+           <string>international</string>
+          </void>
+         </object>
+        </void>
+        <void method="add">
+         <object class="structures.Word">
+          <void property="word">
+           <string>alliances</string>
+          </void>
+         </object>
+        </void>
+        <void method="add">
+         <object class="structures.Word">
+          <void property="word">
+           <string>formed</string>
+          </void>
+         </object>
+        </void>
+        <void method="add">
+         <object class="structures.Word">
+          <void property="word">
+           <string>over</string>
+          </void>
+         </object>
+        </void>
+        <void method="add">
+         <object class="structures.Word">
+          <void property="word">
+           <string>the</string>
+          </void>
+         </object>
+        </void>
+        <void method="add">
+         <object class="structures.Word">
+          <void property="word">
+           <string>previous</string>
+          </void>
+         </object>
+        </void>
+        <void method="add">
+         <object class="structures.Word">
+          <void property="word">
+           <string>decades</string>
+          </void>
+         </object>
+        </void>
+        <void method="add">
+         <object class="structures.Word">
+          <void property="word">
+           <string>were</string>
+          </void>
+         </object>
+        </void>
+        <void method="add">
+         <object class="structures.Word">
+          <void property="word">
+           <string>invoked.</string>
+          </void>
+         </object>
+        </void>
+       </object>
+      </void>
+     </object>
+    </void>
+    <void method="add">
+     <object class="structures.TokenizedSentence">
+      <void property="words">
+       <object class="java.util.ArrayList">
+        <void method="add">
+         <object class="structures.Word">
+          <void property="word">
+           <string>Within</string>
+          </void>
+         </object>
+        </void>
+        <void method="add">
+         <object class="structures.Word">
+          <void property="word">
+           <string>weeks,</string>
+          </void>
+         </object>
+        </void>
+        <void method="add">
+         <object class="structures.Word">
+          <void property="word">
+           <string>the</string>
+          </void>
+         </object>
+        </void>
+        <void method="add">
+         <object class="structures.Word">
+          <void property="word">
+           <string>major</string>
+          </void>
+         </object>
+        </void>
+        <void method="add">
+         <object class="structures.Word">
+          <void property="word">
+           <string>powers</string>
+          </void>
+         </object>
+        </void>
+        <void method="add">
+         <object class="structures.Word">
+          <void property="word">
+           <string>were</string>
+          </void>
+         </object>
+        </void>
+        <void method="add">
+         <object class="structures.Word">
+          <void property="word">
+           <string>at</string>
+          </void>
+         </object>
+        </void>
+        <void method="add">
+         <object class="structures.Word">
+          <void property="word">
+           <string>war</string>
+          </void>
+         </object>
+        </void>
+        <void method="add">
+         <object class="structures.Word">
+          <void property="word">
+           <string>and</string>
+          </void>
+         </object>
+        </void>
+        <void method="add">
+         <object class="structures.Word">
+          <void property="word">
+           <string>the</string>
+          </void>
+         </object>
+        </void>
+        <void method="add">
+         <object class="structures.Word">
+          <void property="word">
+           <string>conflict</string>
+          </void>
+         </object>
+        </void>
+        <void method="add">
+         <object class="structures.Word">
+          <void property="word">
+           <string>soon</string>
+          </void>
+         </object>
+        </void>
+        <void method="add">
+         <object class="structures.Word">
+          <void property="word">
+           <string>spread</string>
+          </void>
+         </object>
+        </void>
+        <void method="add">
+         <object class="structures.Word">
+          <void property="word">
+           <string>around</string>
+          </void>
+         </object>
+        </void>
+        <void method="add">
+         <object class="structures.Word">
+          <void property="word">
+           <string>the</string>
+          </void>
+         </object>
+        </void>
+        <void method="add">
+         <object class="structures.Word">
+          <void property="word">
+           <string>world.</string>
+          </void>
+         </object>
+        </void>
+       </object>
+      </void>
+     </object>
+    </void>
+   </object>
+  </void>
+ </object>
+</java>

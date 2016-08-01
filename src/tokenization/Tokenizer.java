@@ -23,6 +23,10 @@ public class Tokenizer {
         wordPattern = Pattern.compile(wordRegex);
     }
 
+    /**
+     * Performs tokenization on entire corpus
+     * @return
+     */
     public ArrayList<ArrayList<String>> tokenize() {
         FileReader fil = null;
         BufferedReader buf = null;
