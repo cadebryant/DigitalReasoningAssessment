@@ -26,7 +26,9 @@ public class TokenizedCorpus {
 
     /**
      * Constructor
-     * @param filePath
+     * @param filePath The corpus file
+     * @param findNamedEntities Indicates whether to account for named entities in corpus
+     * @param namedEntitiesFile File containing a list of named entities
      */
     public TokenizedCorpus(String filePath, boolean findNamedEntities, String namedEntitiesFile) {
         if (findNamedEntities) {
@@ -37,6 +39,19 @@ public class TokenizedCorpus {
         sentences = new ArrayList<TokenizedSentence>();
         for (ArrayList<String> s : tokenized) {
             sentences.add(new TokenizedSentence(s, findNamedEntities, namedEntityRecognizer));
+        }
+    }
+
+    /**
+     * Constructor for use when input text has already been tokenized
+     * @param tokenizedSentences Tokenized sentences
+     * @param namedEntitiesFile File containing named entities
+     */
+    public TokenizedCorpus(ArrayList<ArrayList<String>> tokenizedSentences, String namedEntitiesFile) {
+        namedEntityRecognizer = new NamedEntityRecognizer(namedEntitiesFile);
+        sentences = new ArrayList<TokenizedSentence>();
+        for (ArrayList<String> s : tokenizedSentences) {
+            sentences.add(new TokenizedSentence(s, true, namedEntityRecognizer));
         }
     }
 

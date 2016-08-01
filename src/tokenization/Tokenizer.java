@@ -13,13 +13,23 @@ public class Tokenizer {
     private static String filePath;
     private static String wordRegex = "\\s+";
     private static Pattern wordPattern;
+    private static BufferedReader reader;
 
     /**
      * Constructor
-     * @param filePath The file containing the text to tokenize.
+     * @param path The file containing the text to tokenize.
      */
-    public Tokenizer(String filePath) {
-        this.filePath = filePath;
+    public Tokenizer(String path) {
+        filePath = path;
+        wordPattern = Pattern.compile(wordRegex);
+    }
+
+    /**
+     * Constructor
+     * @param rdr BufferedReader object
+     */
+    public Tokenizer(BufferedReader rdr) {
+        reader = rdr;
         wordPattern = Pattern.compile(wordRegex);
     }
 
@@ -28,19 +38,32 @@ public class Tokenizer {
      * @return
      */
     public ArrayList<ArrayList<String>> tokenize() {
+        return tokenize(false);
+    }
+
+    /**
+     * Performs tokenization on entire corpus
+     * @param useReader Instructs tokenize to use existing reader rather than create one from file
+     * @return
+     */
+    public ArrayList<ArrayList<String>> tokenize(boolean useReader) {
         FileReader fil = null;
         BufferedReader buf = null;
         String line = null;
         ArrayList<ArrayList<String>> result = new ArrayList<ArrayList<String>>();
         StringBuilder sb = new StringBuilder();
         try {
-            fil = new FileReader(filePath);
-            buf = new BufferedReader(fil);
+            if (!useReader) {
+                fil = new FileReader(filePath);
+                buf = new BufferedReader(fil);
+            } else {
+                buf = reader;
+            }
             while ((line = buf.readLine()) != null) {
                 sb.append(line);
             }
             buf.close();
-            fil.close();
+            if (fil != null) fil.close();
             result = tokenizeSentences(sb.toString());
 
         } catch (Exception e) {
